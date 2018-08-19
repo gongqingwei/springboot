@@ -1,0 +1,10 @@
+create database test;
+use test;
+
+create table user(
+	name varchar(255),
+	age int(11),
+	password varchar(255)
+);
+
+insert into user(name,age,password)values("dongliang",38,"123456");
